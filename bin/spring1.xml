@@ -1,0 +1,27 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id= "rahul" class= "com.jnit1.Student1">
+<property name= "sid" value= "1023"/>
+<property name= "sname" value= "rahul kumar"/>
+<property name= "marks" value= "455"/>
+<property name="courses">
+  <map>
+  <entry key="c1">
+  <value>Java</value></entry>
+  
+  <entry key="c2">
+  <value>AWS</value></entry>
+  
+  <entry key="c3">
+  <value>React</value></entry>
+ 
+  <entry key="c4">
+  <value>Angural</value></entry>
+  
+  </map>
+  </property>
+</bean>
+
+</beans>
